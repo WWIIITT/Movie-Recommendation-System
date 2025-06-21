@@ -3,7 +3,7 @@ import gradio as gr
 import json
 import random
 from typing import List, Dict, Any
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
